@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
-void calculateFuel(int distance)
+void calculateFuel(float distance)
 {
-int fuel;
+float fuel;
 fuel=distance*10;
 cout<<"Fuel needed: "<<fuel;
 }
 main(){
 cout<<"Enter the distance: ";
-int d;
+float d;
 cin>>d;
 calculateFuel(d);
 }

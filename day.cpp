@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
-void calculatePayableAmount(string day, float am);
+void calculatePayableAmount(string "day", float am);
 main(){
 cout<<"Enter the day of purchase: ";
 string da;
 float amt;
 cin>> da;
 cout<<"Enter the total purchase amount: ";
-calculatePayableAmount(string da, float am);
+calculatePayableAmount(string "da", float am);
 }
-void calculatePayableAmount(string day, float am)
+void calculatePayableAmount(string "day", float am)
 {
 if(day==Sunday)
 {
